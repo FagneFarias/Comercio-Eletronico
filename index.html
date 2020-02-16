@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/estiloHome.css">
+    <script src="https://kit.fontawesome.com/e7ffe5bb97.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>ADS Eletros</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="divHeader">
+                <img src="fotos/logo-1.png" alt="" width="700" class="logoLOAN">
+                <div class="linkHeader">
+                    <a href="./Telas/cadastro.html" class="cadastro">CADASTRE-SE</a>
+                    <a href="./Telas/login.html" class="login">LOGIN</a>
+                </div>
+            </div>
+        </header>
+            <nav id="menuprincipal">
+                <ul>
+                    <li> <a href="index.html" id="linkHome" class="linkMenu">Início</a> </li>
+                    <li> <a href="" class="linkMenu">Celulares</a> </li>
+                    <li> <a href="" class="linkMenu">TV e Áudio</a> </li>
+                    <li id="busca">
+                        <input type="text" id="txtBusca" />
+                        <button id="botao">Buscar</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <article>
+                <div class="slideshow-container">
+
+                    <div class="Slides fade">
+                        <div class="imagens">
+                            <img src="" class="imgSlide">
+                            <div class="texto">
+                                <h2 class="título">Nome do Anuncio</h2>
+                                <p class="parágrafo">Descrição
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Slides fade">
+                        <div class="imagens">
+                            <img src="" class="imgSlide">
+                            <div class="texto">
+                                <h2 class="título">Nome do Anuncio</h2>
+                                <p class="parágrafo">Descrição
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Slides fade">
+                        <div class="imagens">
+                            <img src="" class="imgSlide">
+                            <div class="texto">
+                                <h2 class="título">Nome do Anuncio</h2>
+                                <p class="parágrafo">Descrição
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <script src="./script/home.js"></script>
+          
+
+            <footer class="rodape">
+                <ul>
+                    <li class="direitos">Todos direitos reservados ao grupo ADS Eletros.</li>
+                    <li class="contato"><i class="far fa-envelope" class="icone"></i> ADS.Eletros@gmail.com</li>
+                    <li class="contato"><i class="fab fa-facebook-square" class="icone"> ADS_Eletros</i></li>
+                    <li class="contato"><i class="fab fa-instagram" class="icone" ></i> @ADS_Eletros</li>
+                </ul>
+            </footer>
+    </div>
+</body>
+
+</html>
