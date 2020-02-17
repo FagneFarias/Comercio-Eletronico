@@ -40,6 +40,7 @@ var graflinhas=linhas.getContext("2d");
 var pizza=document.getElementById("grafPizza");
 var grafpizza=pizza.getContext("2d");
 
+/* GRÁFICO DE PIZZA */
 var pie={//configurar os dados do grafico
   labels:[" Samsung Galaxy Note 10 Plus ","Xiaomi Mi 9", " Motorola One Zoom"],//pontos do eixo X
   datasets:[{
@@ -47,14 +48,15 @@ var pie={//configurar os dados do grafico
       data:[30,20,50],
       backgroundColor:"#44dbbd",
       borderColor:"black",
-  }]
-}
+  }]}
+
 var pizza = new Chart(graflinhas, {
   //tipo do grafico
   type:'pie',
   data: pie,
 });
 
+/* GRÁFICO DE LINHAS */
 var line={//configurar os dados do grafico
   labels:["  LG C9 "," Sony A8F ", " Samsung Q80 "],//pontos do eixo X
   datasets:[{
@@ -62,8 +64,7 @@ var line={//configurar os dados do grafico
       data:[325,350,610],
       backgroundColor:"black",
       borderColor:"#44dbbd",
-  }]
-}
+  }]}
 
 var linha = new Chart(grafpizza, {
   //tipo do grafico
