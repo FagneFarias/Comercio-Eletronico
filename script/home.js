@@ -46,7 +46,11 @@ var pie={//configurar os dados do grafico
   datasets:[{
       label: 'maiores indeces de vendas',
       data:[30,20,50],
-      backgroundColor:"#44dbbd",
+      backgroundColor:[
+                'rgb(187, 185, 185)',
+                'rgb(102, 95, 95)',
+                'rgb(54, 53, 53)'
+      ],
       borderColor:"black",
   }]}
 
@@ -62,8 +66,11 @@ var line={//configurar os dados do grafico
   datasets:[{
       label: 'maiores indeces de vendas',
       data:[325,350,610],
-      backgroundColor:"black",
-      borderColor:"#44dbbd",
+      backgroundColor:'rgb(187, 185, 185)',
+      borderColor:[
+        "rgb(165, 161, 161)",
+        'rgb(102, 95, 95)',
+        'rgb(54, 53, 53)',]
   }]}
 
 var linha = new Chart(grafpizza, {
