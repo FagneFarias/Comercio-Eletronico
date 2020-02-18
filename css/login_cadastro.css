@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #2F2e2e;
+}
+
+a{
+    text-decoration: none;
+    color: #2F2e2e;
+}
+
+#todo{
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto;
+}
+
+#icone_seta i{
+    font-size: 35px;
+    margin: 18px;
+    color: #f8f8ff;
+}
+
+
+/*card do formulario cadastro/login*/
+#card{
+    background-color: #f8f8ff;
+    margin: 12px auto;
+    width: 70vh;
+    height: 85vh;
+    align-items: center;
+    border-radius: 15px;
+} 
+
+form{
+    text-align: center;
+}
+
+#formCadas{
+    display: flex;
+    flex-direction: column;
+    margin: 22px auto;
+    margin-top: 55px;
+}
+
+.bCad, #bLogin{
+    font-family: 'Montserrat', sans-serif;
+    color:  #f8f8ff;
+    background-color: #44dbbd;
+    width: 15vh;
+    height: 5vh;
+    border: none;
+    border-radius: 7px;
+    margin-left: 40%;
+}
+
+.bCad:hover, #bLogin:hover{
+    background-color: #38b49b;
+}
+
+.campCad{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin: 3px auto;
+    margin-top: 10px;
+    margin-left: 21%;
+    font-size: 17px;
+}
+
+/*Largura da tela de cadastro*/
+.campFor{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/*Largura da tela de login*/
+.campLogin{
+    font-family: 'Montserrat', sans-serif;
+    margin: 3px auto;
+    margin-top: 30px;
+    margin-left: 32px;
+    font-size: 18px;
+    display: flex;
+    align-items: start;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #44dbbd;
+    width: 40vh;
+}
+
+input:focus{
+    border: solid 1px #44dbbd;
+}
+
+
+h1{
+    color: #44dbbd;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#link{
+    margin-top: 20px;
+}
+
+/*hiperlink direcionado para a tela de login*/
+#login{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#login:hover{
+    text-decoration: underline;
+    color: #2F2e2e;
+}
+
+/*login)*/
+#cardLogin{
+    background-color:  #f8f8ff;
+    margin: 12px auto;
+    margin-top: 52px;
+    width: 60vh;
+    height: 72vh;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#formLogin{
+    padding-top: 45px;
+    margin: 29px;
+}
+
+.link{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+
+#inputLogin{
+    margin-top: 10px;
+}
+
+.titleLogin{
+    margin-bottom: 40px;;
+}
+
+#icone_seta_resp_login{
+    display: none;
+}
