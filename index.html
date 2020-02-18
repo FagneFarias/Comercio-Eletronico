@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/estiloHome.css">
     <script src="https://kit.fontawesome.com/e7ffe5bb97.js"></script>
     <!--Link do chart-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js" integrity="sha256-8zyeSXm+yTvzUN1VgAOinFgaVFEFTyYzWShOy9w7WoQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"
+        integrity="sha256-8zyeSXm+yTvzUN1VgAOinFgaVFEFTyYzWShOy9w7WoQ=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>ADS Eletros</title>
 </head>
@@ -17,97 +18,145 @@
     <div id="container">
         <header>
             <div class="divHeader">
-                <img src="fotos/logo-1.png" alt="" width="100" class="logoLOAN">
+                <img src="fotos/logo-1.png" alt="" width="100" class="logoEletro">
                 <div class="linkHeader">
-                    <a href="./Telas/cadastro.html" class="cadastro">CADASTRE-SE</a>
-                    <a href="./Telas/login.html" class="login">LOGIN</a>
+                    <a href="./telas/cadastro.html" class="cadastro">CADASTRE-SE</a>
+                    <a href="./telas/login.html" class="login">LOGIN</a>
                 </div>
             </div>
         </header>
-            <nav id="menuprincipal">
-                <ul>
-                    <li> <a href="index.html" id="linkHome" class="linkMenu">Início</a> </li>
-                    <li> <a href="" class="linkMenu">Celulares</a> </li>
-                    <li> <a href="" class="linkMenu">TV e Áudio</a> </li>
-                    <li id="busca">
-                        <input type="text" id="txtBusca" />
-                        <button id="botao">Buscar</button>
-                    </li>
-                </ul>
-            </nav>
+        <nav id="menuprincipal">
+            <ul>
+                <li> <a href="index.html" id="linkHome" class="linkMenu">Início</a> </li>
+                <li> <a href="" class="linkMenu">Celulares</a> </li>
+                <li> <a href="" class="linkMenu">TV e Áudio</a> </li>
+                <li id="busca">
+                    <input type="text" id="txtBusca" />
+                    <button id="botao">Buscar</button>
+                </li>
+            </ul>
+        </nav>
 
-            <article>
-                <div class="slideshow-container">
+        <article>
+            <div class="slideshow-container">
 
-                    <div class="Slides fade">
-                        <div class="imagens">
-                            <img src="" class="imgSlide">
-                            <div class="texto">
-                                <h2 class="título">Nome do Anuncio</h2>
-                                <p class="parágrafo">Descrição
-                                </p>
-                            </div>
+                <div class="Slides fade">
+                    <div class="imagens">
+                        <img src="" class="imgSlide">
+                        <div class="texto">
+                            <h2 class="título">Nome do Anuncio</h2>
+                            <p class="parágrafo">Descrição
+                            </p>
                         </div>
                     </div>
-
-                    <div class="Slides fade">
-                        <div class="imagens">
-                            <img src="" class="imgSlide">
-                            <div class="texto">
-                                <h2 class="título">Nome do Anuncio</h2>
-                                <p class="parágrafo">Descrição
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Slides fade">
-                        <div class="imagens">
-                            <img src="" class="imgSlide">
-                            <div class="texto">
-                                <h2 class="título">Nome do Anuncio</h2>
-                                <p class="parágrafo">Descrição
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
                 </div>
-                <br>
 
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
+                <div class="Slides fade">
+                    <div class="imagens">
+                        <img src="" class="imgSlide">
+                        <div class="texto">
+                            <h2 class="título">Nome do Anuncio</h2>
+                            <p class="parágrafo">Descrição
+                            </p>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="Slides fade">
+                    <div class="imagens">
+                        <img src="" class="imgSlide">
+                        <div class="texto">
+                            <h2 class="título">Nome do Anuncio</h2>
+                            <p class="parágrafo">Descrição
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <div class="grid">
+                <!--CARDS- Tv e Celular-->
+                <!--CARDS- Tv e Celular-->
+            <div class="cards">
+                <p class="pCel">Celulares</p>
+                <div class="card">
+                    <img src="/fotos/celular-1.png" width="250" alt="Sample photo">
+                    <div class="text">
+                        <h3>Smartphone Samsung Galaxy S10</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./fotos/celular-2.jpg" width="250" alt="Sample photo">
+                    <div class="text">
+                        <h3>Smartphone Xiaomi Mi 9</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/fotos/celular-3.jpg" width="250" alt="Sample photo">
+                    <div class="text">
+                        <h3>Smartphone Motorola One Zoom</h3>
+                    </div>
+                </div>
+
+                <p class="pTV">TV's</p>
+                <div class="card">
+                    <img src="/fotos/tv-1.png" width="250" alt="Sample photo">
+                    <div class="text">
+                        <h3> LG OLED C9 Smart TV</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/fotos/tv-2.png" width="250" alt="Sample photo">
+                    <div class="text">
+                        <h3>Smart TV Sony A8F</h3>  
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/fotos/tv-3.jpg" width="250" alt="Sample photo">
+                    <div class="text">
+                        <h3>QLED TV UHD 4K Samsung Q80</h3>
+                    </div>
+                </div>
+            </div>
+
                 <!--GRÁFICOS-->
                 <div id="grafico_conteiner">
 
-                    <div id="grafico" style="width: 480;" > 
-                                            <h1>Celulares mais vendidos</h1>
+                    <div id="grafico" style="width: 480;">
+                        <h1>Celulares mais vendidos</h1>
                         <canvas id="grafLinhas">
-                            
+
                         </canvas>
                         <br>
 
                         <h1>TVs mais vendidas</h1>
                         <canvas id="grafPizza">
-                            
+
                         </canvas>
-            
+
                     </div>
                 </div>
-            <footer class="rodape">
-                <ul>
-                    <li class="direitos">Todos direitos reservados ao grupo ADS Eletro.</li>
-                    <li class="contato"><i class="far fa-envelope" class="icone"></i> ADS.Eletro@gmail.com</li>
-                    <li class="contato"><i class="fab fa-facebook-square" class="icone"> ADS_Eletro</i></li>
-                    <li class="contato"><i class="fab fa-instagram" class="icone" ></i> @ADS_Eletro</li>
-                </ul>
-            </footer>
+            </div>
+        </article>
+        <footer class="rodape">
+            <ul>
+                <li class="direitos">Todos direitos reservados ao grupo ADS Eletro.</li>
+                <li class="contato"><i class="far fa-envelope" class="icone"></i> ADS.Eletro@gmail.com</li>
+                <li class="contato"><i class="fab fa-facebook-square" class="icone"> ADS_Eletro</i></li>
+                <li class="contato"><i class="fab fa-instagram" class="icone"></i> @ADS_Eletro</li>
+            </ul>
+        </footer>
     </div>
     <script src="./script/home.js"></script>
 </body>
