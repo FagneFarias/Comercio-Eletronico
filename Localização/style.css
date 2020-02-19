@@ -1,0 +1,194 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    
+    background-color: rgba(0, 0, 0, 0.884);
+    overflow: hidden;
+}
+#map {
+    margin: 4px 4px 4px 4px;
+    align-self: center;
+    width: 480px;
+    height: 480px;
+    opacity: 1;
+}
+h1 {
+    align-self: center;
+    margin: 22px 19px 22px 19px;
+    text-align: center;
+    font-size: 56px;
+    color: #095ba6;
+    opacity: 1;
+    font-family: 'Montserrat'
+}
+
+#caixa-do-mapa {
+    width: 100%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    background-color:#2f2e2e;
+    height: 100vh;
+}
+#Texto {
+    word-wrap: break-word;
+    padding: 7px 18px 11px 18px;
+    width: 556px;
+    font-size: 45px;
+    background-color: gold;
+}
+#central {
+    background-color: grey;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    border: 1px solid black;
+}
+#floating-panel {
+  position: relative;
+  top: 10px;
+  align-self: center;
+  z-index: 5;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+#moldura {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#095ba6;
+    margin: 0px 5px 0px 5px;
+    max-width: 500px;
+    max-height: 570px;
+}
+/*caixa frete*/
+#text {
+    background-color: white;
+    padding: 7px 18px 11px 18px;
+}
+#btn{
+    
+    display: inline;
+    background: #095ba6;
+    line-height: normal;
+    color: #fff;
+    border-radius: 4px;
+   
+    padding: 10px 20px;
+    vertical-align: middle;
+    padding: 20;
+    border: 20;
+    cursor: pointer;
+   
+}
+#btreturn{
+    display: inline;
+    background: #095ba6;
+    line-height: center;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    vertical-align: Center;
+    padding: 20;
+    border: 20;
+    cursor: pointer;
+    position:center;
+}
+
+/*header*/
+/*----Menu*/
+.divHeader{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logoEletro{
+  margin-top: 8px;
+  margin-left: 15px;
+}
+  
+.linkHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 70%;
+}
+  
+.cadastro,
+.login{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 0;
+}
+  
+#menuprincipal ul{
+    list-style: none;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2f2e2e;
+    border: 1px solid black;
+}
+    
+.linkMenu{
+    display: block;
+    color: #44dbbd;
+    padding: 15px 30px;
+    
+}
+.linkMenu:hover{
+    background-color: #44dbbd;
+    color: white;
+
+}
+
+.linkMenu:link,
+.cadastro:link, 
+.login:link{
+    text-decoration: none;
+    color: #44dbbd;
+}
+  
+.linMenu:visited,
+.cadastro:visited, 
+.login:visited{
+    color: #44dbbd;
+}
+   
+ #linkHome{
+    color:  white ;
+    background-color: #44dbbd;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+#busca{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    margin-left: 20%;
+    padding-right: 3%;
+}
+  
+#txtBusca{
+    border: 1px solid #44dbbd;
+    border-radius: 5px;
+    height: 20px;
+}
+  
+#botao{
+    background-color: transparent;
+    border: none;
+    color: #44dbbd;
+    margin-bottom: 12px;
+}
