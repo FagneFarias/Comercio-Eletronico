@@ -67,3 +67,24 @@ function aparecer8() {
 function sumir8(){
     document.getElementById("imagem8").style.display='none';
 }
+//video 1
+function autoplay(){
+    var vid = document.getElementById("video1");
+    vid.autoplay = true;
+    vid.load(); 
+}
+
+function proximovideo(){
+    document.getElementById("s10").src = "videos/mi9";
+    document.getElementById("s10.ogg").src = "videos/mi9.ogg";
+    document.getElementById("video1").load();
+
+}
+
+function voltavideo(){
+    document.getElementById("s10").src = "videos/s10";
+    document.getElementById("s10.ogg").src = "videos/s10.ogg";
+    document.getElementById("video1").load();
+
+}
+
