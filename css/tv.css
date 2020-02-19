@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.884);
+    font-family: 'Montserrat', sans-serif;
+}
+/*----Menu*/
+.divHeader{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logoLOAN{
+  margin-top: 8px;
+  margin-left: 15px;
+}
+  
+.linkHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 70%;
+}
+  
+.cadastro,
+.login{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 0;
+}
+  
+#menuprincipal ul{
+    list-style: none;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2f2e2e;
+    border: 1px solid black;
+}
+    
+.linkMenu{
+    display: block;
+    color: #44dbbd;
+    padding: 15px 30px;
+    
+}
+.linkMenu:hover{
+    background-color: #44dbbd;
+    color: white;
+
+}
+
+.linkMenu:link,
+.cadastro:link, 
+.login:link{
+    text-decoration: none;
+    color: #44dbbd;
+}
+  
+.linMenu:visited,
+.cadastro:visited, 
+.login:visited{
+    color: #44dbbd;
+}
+   
+ #linkHome{
+    color:  white ;
+    background-color: #44dbbd;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+#busca{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    margin-left: 20%;
+    padding-right: 3%;
+}
+  
+#txtBusca{
+    border: 1px solid #44dbbd;
+    border-radius: 5px;
+    height: 20px;
+}
+  
+#botao{
+    background-color: transparent;
+    border: none;
+    color: #44dbbd;
+    margin-bottom: 12px;
+}
+
+/*Mostrar preço*/
+
+.sumir{
+    display: none;
+    text-align: center;
+    font-size: 14px;
+}
+  
+
+#cardcelulares{
+    display: inline-flex;
+    margin: 13px;
+}
+
+/* Imagens TV e Celular - */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: 5%;
+    background-color: #2f2e2e;
+}
+
+.card{
+    flex: 0 0 200px;
+    margin: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    background-color: #f8f8f8;
+}
+
+.sumir{
+    text-align: center;
+    font-size: 14px;
+}
+
+.pCel{
+    width: 100%;
+    color: #44dbbd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pCel{
+    margin-left: 45%;
+}
+/* VIDEOS - */
+.videos{
+    display: flex;
+    flex-direction: column;
+    background-color: #2f2e2e;
+    align-items: center;
+    width: 1325px;
+    margin-left: 13px;
+}
+.divvid{
+    display: flex;
+    flex-direction: row;
+}
+.titulovid{
+    color:#44dbbd;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: black;
+    cursor: pointer;
+    margin: 50px;
+}
+.btn:hover{
+    background-color: #44dbbd;
+    color: white;
+    border-color:#44dbbd ;
+
+}

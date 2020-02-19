@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/tv.css">
+    <title>ADS Eletros</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="divHeader">
+                <img src="fotos/logo-1.png" alt="" width="100" class="logoLOAN">
+                <div class="linkHeader">
+                    <a href="./Telas/cadastro.html" class="cadastro">CADASTRE-SE</a>
+                    <a href="./Telas/login.html" class="login">LOGIN</a>
+                </div>
+            </div>
+        </header>
+        <nav id="menuprincipal">
+            <ul>
+                <li> <a href="index.html" class="linkMenu">Início</a> </li>
+                <li> <a href="celulares.html" class="linkMenu">Celulares</a> </li>
+                <li> <a href="tv.html" id="linkHome" class="linkMenu">TV e Áudio</a> </li>
+                <li> <a href="Localização/index.html" class="linkMenu">Localização</a> </li>
+                <li id="busca">
+                    <input type="text" id="txtBusca" />
+                    <button id="botao">Buscar</button>
+                </li>
+            </ul>
+        </nav>
+        <!-- IMAGENS das TV's-->
+        <div class="grind">
+            <div class="cards" id="cardcelulares">
+                <h1 class="pCel">TV e Áudio</h1>
+                <div class="card">
+                    <img src="fotos/TVs/Samsung 75RU7100.jpg" width="250" height="250" onmouseover="aparecer1()"
+                        onmouseout="sumir1()" />
+                    <div id="imagem1" class="sumir">
+                        <p>Smart TV LED 75" Samsung 75RU7100 · Ultra HD 4K · Conversor Digital · 3 HDMI 2 USB · Wi-Fi ·
+                            Bluetooth · Controle Remoto Único · Visual Livre de Cabos</p>
+                        <p>Apartir de R$ 5.399,09</p>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="fotos/TVs/sony55.jpg" width="250" height="250" onmouseover="aparecer2()"
+                        onmouseout="sumir2()" />
+                    <div id="imagem2" class="sumir">
+                        <p>Smart TV Sony OLED 55” XBR-55A8F · 4k · Android TV · Acoustic Surface ·  Motionflow XR · Triluminos
+                             · 4K X-Reality Pro · Wi-Fi</p>
+                        <p>Apartir de R$ 6.999,26 </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="fotos/TVs/samsung55.jpg" width="250" height="250" onmouseover="aparecer3()"
+                        onmouseout="sumir3()" />
+                    <div id="imagem3" class="sumir">
+                        <p>Smart TV QLED 55” Samsung QN55Q80RAG · 4K · Wi-Fi · HDR ·
+                            4 HDMI 3 USB</p>
+                        <p>Apartir de R$4.399,20 </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="fotos/TVs/lg55.jpg" width="250" height="250" onmouseover="aparecer4()"
+                        onmouseout="sumir4()" />
+                    <div id="imagem4" class="sumir">
+                        <p> Smart TV OLED 55" LG OLED55C9 · 4K · Google Assistente · HDR · Inteligência Artificial ThinQ
+                            · Dolby Vision ·Dolby Atmos</p>
+                        <p>Apartir de R$ 5.299,00 </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="fotos/TVs/panasonic40.jpg" width="250" height="250" onmouseover="aparecer5()"
+                        onmouseout="sumir5()" />
+                    <div id="imagem5" class="sumir">
+                        <p>Smart TV LED 40" Panasonic TC-40FS600B · Full HD · Conversor Digital · 2 HDMI 1 USB · Bluetooth · Wi-Fi · Preto</p>
+                        <p>Apartir de R$ 1.159,00 </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="fotos/TVs/lg50.jpg" width="250" height="250" onmouseover="aparecer6()"
+                        onmouseout="sumir6()" />
+                    <div id="imagem6" class="sumir">
+                        <p>Smart TV LED 50” LG 50UM7510PSB · Ultra HD 4K · HDR Ativo · DTS Virtual X · 4 HDMI 2 USB · Inteligência Artificial ThinQ</p>
+                        <p>Apartir de R$ 1.799,00 </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="fotos/TVs/sony32.jpg" width="250" height="250" onmouseover="aparecer7()"
+                        onmouseout="sumir7()" />
+                    <div id="imagem7" class="sumir">
+                        <p>Smart TV LED 32" Sony Bravia KDL-32W655D/Z · Hd · Wi-fi · 2 Usb 2 Hdmi · Motionflow 240 · X-reality Pro · Preto</p>
+                        <p>Apartir de R$ 954,04</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="fotos/TVs/philco55.jpg" width="250" height="250" onmouseover="aparecer8()"
+                        onmouseout="sumir8()" />
+                    <div id="imagem8" class="sumir">
+                        <p>Smart TV LED 55" Philco PTV55F62SNT · Ultra HD 4K · Conversor Digital Integrado · 3 HDMI 2 USB · Wi-Fi · Netflix · Titanium</p>
+                        <p>Apartir de R$ 1.999,99</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="./script/tv.js"></script>
+</body>
+
+</html>
