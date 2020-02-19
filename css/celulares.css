@@ -145,3 +145,36 @@ body{
 .pCel{
     margin-left: 45%;
 }
+/* VIDEOS - */
+.videos{
+    display: flex;
+    flex-direction: column;
+    background-color: #2f2e2e;
+    align-items: center;
+    width: 1325px;
+    margin-left: 13px;
+}
+.divvid{
+    display: flex;
+    flex-direction: row;
+}
+.titulovid{
+    color:#44dbbd;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: black;
+    cursor: pointer;
+    margin: 50px;
+}
+.btn:hover{
+    background-color: #44dbbd;
+    color: white;
+    border-color:#44dbbd ;
+
+}
