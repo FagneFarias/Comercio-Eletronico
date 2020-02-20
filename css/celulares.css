@@ -95,7 +95,8 @@ body{
 
 .sumir{
     display: none;
-    color: red;
+    text-align: center;
+    font-size: 14px;
 }
   
 
@@ -105,12 +106,6 @@ body{
 }
 
 /* Imagens TV e Celular - */
-
-.grid{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-left: 2%;
-}
 
 .cards {
     display: flex;
@@ -145,6 +140,7 @@ body{
 .pCel{
     margin-left: 45%;
 }
+
 /* VIDEOS - */
 .videos{
     display: flex;
@@ -172,9 +168,9 @@ body{
     cursor: pointer;
     margin: 50px;
 }
+
 .btn:hover{
     background-color: #44dbbd;
     color: white;
     border-color:#44dbbd ;
-
 }

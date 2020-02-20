@@ -67,6 +67,7 @@ function aparecer8() {
 function sumir8(){
     document.getElementById("imagem8").style.display='none';
 }
+
 //video 1
 function autoplay(){
     var vid = document.getElementById("video1");
@@ -87,4 +88,3 @@ function voltavideo(){
     document.getElementById("video1").load();
 
 }
-

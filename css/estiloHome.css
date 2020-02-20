@@ -121,29 +121,37 @@ body{
 .texto{
     flex: 1;
     color: white;
+    margin-right: 100px;
 }
   
 .título{
-    margin-top: 8%;
+    margin-top: 18%;
     text-align: center;
     font-size: 25px;
     color: #44dbbd;
 }
   
 .parágrafo{
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     line-height: 1.5;
     padding-right: 15px;
-    text-indent: 5%;
-    margin-right: 3%;
-    margin-left: 2%;
 }
   
 .imgSlide{
-    margin-right: 5%;
-    width: 280px; 
-    margin-left: 3%;
+    width: 400px; 
+    margin-left: 10%;
+}
+
+.bSlide{
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f8ff;
+    background-color: #44dbbd;
+    width: 13vh;
+    height: 5vh;
+    border: none;
+    border-radius: 7px;
+    margin-left: 37%;
 }
 
 .prev, .next {
@@ -276,7 +284,6 @@ body{
 .card{
     flex: 0 0 200px;
     margin: 10px;
-   
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     background-color: #f8f8f8;
@@ -285,6 +292,7 @@ body{
 .text{
     text-align: center;
     font-size: 14px;
+    display: none;
 }
 
 .pTV, .pCel{

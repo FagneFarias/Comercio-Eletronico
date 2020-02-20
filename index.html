@@ -43,33 +43,33 @@
 
                 <div class="Slides fade">
                     <div class="imagens">
-                        <img src="" class="imgSlide">
+                        <img src="fotos/banner.png" class="imgSlide">
                         <div class="texto">
-                            <h2 class="título">Nome do Anuncio</h2>
-                            <p class="parágrafo">Descrição
-                            </p>
+                            <h2 class="título">APROVEITE!</h2>
+                            <p class="parágrafo">Celulares </br>com os melhores</br> preços.</p>
+                            <button class="bSlide" onclick="redirecionar1()">Confira</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="Slides fade">
                     <div class="imagens">
-                        <img src="" class="imgSlide">
+                        <img src="fotos/bannerTV.png" width="400" class="imgSlide">
                         <div class="texto">
-                            <h2 class="título">Nome do Anuncio</h2>
-                            <p class="parágrafo">Descrição
-                            </p>
+                            <h2 class="título">SMART TVs</h2>
+                            <p class="parágrafo">Com os melhores </br> preços!</p>
+                            <button class="bSlide" onclick="redirecionar2()">Confira</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="Slides fade">
                     <div class="imagens">
-                        <img src="" class="imgSlide">
+                        <img src="fotos/logo-1.png" class="imgSlide">
                         <div class="texto">
-                            <h2 class="título">Nome do Anuncio</h2>
-                            <p class="parágrafo">Descrição
-                            </p>
+                            <h2 class="título">Localização</h2>
+                            <p class="parágrafo" class="pSlide3"> da nossa loja física!</p>
+                            <button class="bSlide" onclick="redirecionar3()" >Confira</button>
                         </div>
                     </div>
                 </div>
@@ -89,47 +89,53 @@
             <div class="grid">
                 <!--CARDS- Tv e Celular-->
                 <!--CARDS- Tv e Celular-->
-            <div class="cards">
-                <p class="pCel">Celulares</p>
-                <div class="card">
-                    <img src="./fotos/celular-1.png" width="250" alt="Sample photo">
-                    <div class="text">
-                        <h3>Smartphone Samsung Galaxy S10</h3>
+                <div class="cards">
+                    <p class="pCel">Celulares</p>
+                    <div class="card">
+                        <img src="./fotos/celular1.jpg" width="250" alt="Sample photo" onmouseover="aparece1()"
+                            onmouseout="some1()">
+                        <div class="text" id="cel1">
+                            <h3>Smartphone Samsung Galaxy S10</h3>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="./fotos/celular-2.jpg" width="250" alt="Sample photo">
-                    <div class="text">
-                        <h3>Smartphone Xiaomi Mi 9</h3>
+                    <div class="card">
+                        <img src="./fotos/celular-2.jpg" width="250" alt="Sample photo" onmouseover="aparece2()"
+                            onmouseout="some2()">
+                        <div class="text" id="cel2">
+                            <h3>Smartphone Xiaomi Mi 9</h3>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="./fotos/celular-3.jpg" width="250" alt="Sample photo">
-                    <div class="text">
-                        <h3>Smartphone Motorola One Zoom</h3>
+                    <div class="card">
+                        <img src="./fotos/celular-3.jpg" width="250" alt="Sample photo" onmouseover="aparece3()"
+                            onmouseout="some3()">
+                        <div class="text" id="cel3">
+                            <h3>Smartphone Motorola One Zoom</h3>
+                        </div>
                     </div>
-                </div>
 
-                <p class="pTV">TV's</p>
-                <div class="card">
-                    <img src="./fotos/tv-1.png" width="250" alt="Sample photo">
-                    <div class="text">
-                        <h3> LG OLED C9 Smart TV</h3>
+                    <p class="pTV">TV's</p>
+                    <div class="card">
+                        <img src="./fotos/tv-1.png" width="250" alt="Sample photo" onmouseover="aparece4()"
+                            onmouseout="some4()">
+                        <div class="text" id="tv1">
+                            <h3> LG OLED C9 Smart TV</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./fotos/tv-2.png" width="250" alt="Sample photo" onmouseover="aparece5()"
+                            onmouseout="some5()">
+                        <div class="text" id="tv2">
+                            <h3>Smart TV Sony A8F</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./fotos/tv-3.jpg" width="250" alt="Sample photo" onmouseover="aparece6()"
+                            onmouseout="some6()">
+                        <div class="text" id="tv3">
+                            <h3>QLED TV UHD 4K Samsung Q80</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="./fotos/tv-2.png" width="250" alt="Sample photo">
-                    <div class="text">
-                        <h3>Smart TV Sony A8F</h3>  
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./fotos/tv-3.jpg" width="250" alt="Sample photo">
-                    <div class="text">
-                        <h3>QLED TV UHD 4K Samsung Q80</h3>
-                    </div>
-                </div>
-            </div>
 
                 <!--GRÁFICOS-->
                 <div id="grafico_conteiner">
@@ -160,6 +166,7 @@
         </footer>
     </div>
     <script src="./script/home.js"></script>
+    <script src="./script/imagensHome.js"></script>
 </body>
 
 </html>
