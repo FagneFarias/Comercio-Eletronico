@@ -108,3 +108,26 @@ function voltavideo(){
     document.getElementById("video1").load();
 
 }
+
+/* GRÁFICO DE LINHAS */
+
+var pizza=document.getElementById("grafPizza");
+var grafpizza=pizza.getContext("2d");
+
+var line={//configurar os dados do grafico
+    labels:["  LG C9 "," Sony A8F ", " Samsung Q80 "],//pontos do eixo X
+    datasets:[{
+        label: 'maiores indeces de vendas',
+        data:[325,350,610],
+        backgroundColor:'rgb(187, 185, 185)',
+        borderColor:[
+          "rgb(265, 261, 261)",
+          'rgb(102, 195, 195)',
+          'rgb(74, 73, 83)',]
+    }]}
+  
+  var linha = new Chart(grafpizza, {
+    //tipo do grafico
+    type:'line',
+    data: line,
+  });

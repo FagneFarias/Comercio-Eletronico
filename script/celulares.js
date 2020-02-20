@@ -88,3 +88,26 @@ function voltavideo(){
     document.getElementById("video1").load();
 
 }
+/* Grafico */
+var linhas=document.getElementById("grafLinhas");
+var graflinhas=linhas.getContext("2d");
+
+/* GRÁFICO DE PIZZA */
+var pie={//configurar os dados do grafico
+  labels:[" Samsung Galaxy Note 10 Plus ","Xiaomi Mi 9", " Motorola One Zoom"],//pontos do eixo X
+  datasets:[{
+      label: 'maiores indeces de vendas',
+      data:[30,20,50],
+      backgroundColor:[
+                'rgb(187, 185, 185)',
+                'rgb(102, 95, 95)',
+                'rgb(54, 53, 53)'
+      ],
+      borderColor:"black",
+  }]}
+
+  var pizza = new Chart(graflinhas, {
+    //tipo do grafico
+    type:'pie',
+    data: pie,
+  });

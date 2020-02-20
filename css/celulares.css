@@ -174,3 +174,24 @@ body{
     color: white;
     border-color:#44dbbd ;
 }
+/*Grafico*/
+#grafico{
+    width: 720px;
+    margin-left: 325px;
+    margin-top: 10px;
+}
+
+#grafico{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+
+    align-items: center;
+}
+
+#grafico canvas{
+    margin: 10px;
+    border: 1px solid #70978f;
+    border-radius: 2px;
+    color: rgb(102, 95, 95);
+}
