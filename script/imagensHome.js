@@ -46,13 +46,13 @@ function some6(){
 /*Redirecionamento dos botões do Slide*/
 
 function redirecionar1(){
-    window.location.href="#"
+    window.location.href="http://127.0.0.1:5500/celulares.html"
 }
 
 function redirecionar2(){
-    window.location.href="#"
+    window.location.href="http://127.0.0.1:5500/tv.html"
 }
 
 function redirecionar3(){
-    window.location.href="#"
+    window.location.href="http://127.0.0.1:5500/Localiza%C3%A7%C3%A3o/index.html"
 }

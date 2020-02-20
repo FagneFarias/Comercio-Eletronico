@@ -16,8 +16,8 @@ h1 {
     align-self: center;
     margin: 22px 19px 22px 19px;
     text-align: center;
-    font-size: 56px;
-    color: #095ba6;
+    font-size: 30px;
+    color: #44dbbd;
     opacity: 1;
     font-family: 'Montserrat'
 }
@@ -62,13 +62,16 @@ h1 {
 }
 #moldura {
     display: flex;
-    justify-content: space-around;
+    
     flex-direction: column;
     flex-wrap: wrap;
-    background-color:#095ba6;
+    background-color: rgb(102, 95, 95);
     margin: 0px 5px 0px 5px;
     max-width: 500px;
     max-height: 570px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
 }
 /*caixa frete*/
 #text {
@@ -78,7 +81,7 @@ h1 {
 #btn{
     
     display: inline;
-    background: #095ba6;
+    background: #44dbbd;
     line-height: normal;
     color: #fff;
     border-radius: 4px;
@@ -92,7 +95,7 @@ h1 {
 }
 #btreturn{
     display: inline;
-    background: #095ba6;
+    background: #44dbbd;
     line-height: center;
     color: #fff;
     border-radius: 4px;
@@ -146,11 +149,6 @@ h1 {
     padding: 15px 30px;
     
 }
-.linkMenu:hover{
-    background-color: #44dbbd;
-    color: white;
-
-}
 
 .linkMenu:link,
 .cadastro:link, 
@@ -191,4 +189,9 @@ h1 {
     border: none;
     color: #44dbbd;
     margin-bottom: 12px;
+}
+
+.pFrete{
+    margin-top: 100px;
+    margin-left: 80px;
 }
