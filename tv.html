@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/tv.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+     <!--Link do chart-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"
+     integrity="sha256-8zyeSXm+yTvzUN1VgAOinFgaVFEFTyYzWShOy9w7WoQ=" crossorigin="anonymous"></script>
     <title>ADS Eletros</title>
 </head>
 
@@ -126,6 +129,14 @@
                 </video>
                 <button class="btn" onclick="proximovideo()" type="button">Proximo</button>
             </div>
+        </div>
+        <!--Gráfico-->
+        <div id="grafico" style="width: 480;">
+            <h1>TVs mais vendidas</h1>
+            <canvas id="grafPizza">
+
+            </canvas>
+
         </div>
         <script src="./script/tv.js"></script>
 </body>
