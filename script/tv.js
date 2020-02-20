@@ -75,16 +75,36 @@ function autoplay(){
 }
 
 function proximovideo(){
-    document.getElementById("s10").src = "videos/mi9";
-    document.getElementById("s10.ogg").src = "videos/mi9.ogg";
+    document.getElementById("lg").src = "videos/";
+    document.getElementById("lg.ogg").src = "videos/mi9.ogg";
     document.getElementById("video1").load();
 
 }
 
 function voltavideo(){
-    document.getElementById("s10").src = "videos/s10";
-    document.getElementById("s10.ogg").src = "videos/s10.ogg";
+    document.getElementById("lg").src = "videos/lg.mp4";
+    document.getElementById("lg.ogg").src = "videos/lg.ogg";
     document.getElementById("video1").load();
 
 }
 
+//video 1
+function autoplay(){
+    var vid = document.getElementById("video1");
+    vid.autoplay = true;
+    vid.load(); 
+}
+
+function proximovideo(){
+    document.getElementById("lg").src = "videos/sonya8f.mp4";
+    document.getElementById("lg.ogg").src = "videos/sonya8f.ogg";
+    document.getElementById("video1").load();
+
+}
+
+function voltavideo(){
+    document.getElementById("lg").src = "videos/lg.mp4";
+    document.getElementById("lg.ogg").src = "videos/lg.ogg";
+    document.getElementById("video1").load();
+
+}
